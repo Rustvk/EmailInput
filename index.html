@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="dist/style.css">
+    <meta charset="UTF-8">
+    <title>Emails Input Demo Page</title>
+</head>
+<body>
+<div class="container">
+    <h1>Email Input</h1>
+    <div id="emails-input" class="block"></div>
+    <div id="emails-input2" class="block"></div>
+    <script src="dist/index.js"></script>
+    <script>
+        var emailsInput = EmailsInput({
+            container: document.querySelector('#emails-input')
+        });
+        var emailsInput2 = EmailsInput({
+            container: document.querySelector('#emails-input2'),
+            title: 'Optional emails input title'
+        })
+    </script>
+</div>
+</body>
+</html>

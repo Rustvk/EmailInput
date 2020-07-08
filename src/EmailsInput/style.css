@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+.emails_input_block {
+    border-radius: 8px;
+    color: #050038;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+}
+
+.emails_input_block_head {
+    padding: 32px 50px 24px;
+    background: #F8F8F7;
+    min-height: 200px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.emails_input_block_title {
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.emails_input_block_buttons {
+    display: flex;
+    padding: 24px 50px 32px;
+}
+
+.emails_input_block_button {
+    margin-right: 16px;
+    background: #4262FF;
+    border-radius: 6px;
+
+    padding: 8px 16px;
+    border: 0;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.emails_input_block_field {
+    background: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-content: flex-start;
+    align-items: baseline;
+    border: 1px solid #C3C2CF;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 4px 4px 8px 8px;
+    overflow: auto;
+    cursor: text;
+}
+
+.emails_input_block_email {
+    margin: 4px 8px 0 0;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    color: #050038;
+    line-height: 24px;
+}
+
+.emails_input_block_valid {
+    padding: 0 8px 0 10px;
+    background: rgba(102, 153, 255, 0.2);
+    border-radius: 100px;
+}
+
+.emails_input_block_invalid {
+    border-bottom: 1px dashed #D92929;
+    height: 24px;
+}
+
+.emails_input_block_existed {
+    background: #b8c1ae;
+}
+
+.emails_input_block_email span {
+    font-size: 14px;
+    height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: right;
+}
+
+.emails_input_block_close {
+    font-size: 12px;
+    cursor: pointer;
+    margin: 0 4px;
+}
+
+.emails_input_block_input {
+    margin: 4px 8px 0 0;
+    outline: none;
+    border: none;
+    height: 24px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.emails_input_block_input::placeholder {
+    color: #C3C2CF;
+}
+
+.emails_input_block_sizes {
+    max-width: 540px;
+    height: 300px;
+}
