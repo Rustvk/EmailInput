@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/app.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'index.js'
+        filename: 'emails-input.min.js'
     },
     module: {
         rules: [
