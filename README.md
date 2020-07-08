@@ -132,7 +132,7 @@ addEmail: function() {...}
 
 /**
  * Get emails count
- * @returns {number}
+ * @returns {string} String with valid and common emails count
 **/
 getCount: function() {...}
 ```
