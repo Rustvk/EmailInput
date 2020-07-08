@@ -34,8 +34,8 @@ If you use NPM packages in your project the next way is right for you:
 ```
 - Add to your JS component: 
 ```JS
-  import '@rustvk/emailsinput/index.js';
-  import '@rustvk/emailsinput/style.css';
+  import '@rustvk/emailsinput/emails-input.min.js';
+  import '@rustvk/emailsinput/emails-input.css';
 ```
 
 ### Via sources:
@@ -46,8 +46,8 @@ If you use NPM packages in your project the next way is right for you:
 ```text
 EmailInput-master/
 └── dist/
-    ├── index.js
-    └── style.css
+    ├── emails-input.min.js
+    └── emails-input.css
 ├── src/
     └── EmailsInput
         ├── index.js
@@ -64,11 +64,11 @@ EmailInput-master/
 ```HTML
   ...
   <head>
-    <link href="{path}/style.css" rel="stylesheet" />
+    <link href="{path}/emails-input.css" rel="stylesheet" />
   </head>
   <body>
     ...
-    <script src="{path}/index.js"></script>
+    <script src="{path}/emails-input.min.js"></script>
   </body> 
   ...
 ```
