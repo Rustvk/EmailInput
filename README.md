@@ -85,7 +85,7 @@ EmailInput-master/
 </body>
 ```
 
-- Add `<script>` tag after before `<body>` closed
+- Add `<script>` tag before `<body>` closed
 
 ```html
     <body>
