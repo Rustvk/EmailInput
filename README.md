@@ -73,14 +73,14 @@ EmailInput-master/
   ...
 ```
 
-##Usage
+## Usage
 
 - Create container for component with your ID
 
 ```html
 <body>
     ...
-    <div id="emails-input" class="block"></div>
+    <div id="emails-input"></div>
     ...
 </body>>
 ```
@@ -97,4 +97,42 @@ EmailInput-master/
         </script>
     </body>
 ```
-##Documentation
+
+- Add your width and height rules. 
+  By default width is 540px and height is 300px
+  Default sizes will be ignored if #emails-input has a max-width and height style properties
+```css
+  #emails-input {
+    max-width: 600px;
+    height: 400px;
+  }
+```
+
+## Documentation
+
+Added script is create EmailsInput component function in your global object `Window`
+
+EmailsInput get an object with options as an argument
+
+list of options:
+```JS
+   @params {object} options
+   @params {HTMLContainer} container - HTMLElement that will conaint EmailsInput component
+   @params {string} [title] - Optional title for EmailsInput block
+    
+```
+
+EmailsInput function return an object with methods:
+```JS
+/**
+ * Adding email to field
+ * @params {string} email
+**/
+addEmail: function() {...}
+
+/**
+ * Get emails count
+ * @returns {number}
+**/
+getCount: function() {...}
+```
