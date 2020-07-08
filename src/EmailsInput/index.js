@@ -156,7 +156,9 @@ window.EmailsInput = (function() {
 
         // Interface for interaction. Can be
         return {
-            addEmail: addEmailToField,
+            addEmail: function(email) {
+                return addEmailToField(null, email);
+            },
             getCount: fieldComponent.getCount
         };
     }
