@@ -1,6 +1,6 @@
 {
-  "name": "emailsinput",
-  "version": "1.0.0",
+  "name": "@rustvk/emailsinput",
+  "version": "1.0.2",
   "description": "Emails input field component",
   "main": "index.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rustvk/Email-Input.git"
+    "url": "git+https://github.com/Rustvk/EmailInput.git"
   },
   "author": "Rustam Mambetov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rustvk/Email-Input/issues"
+    "url": "https://github.com/Rustvk/EmailInput/issues"
   },
-  "homepage": "https://github.com/Rustvk/Email-Input#readme",
+  "homepage": "https://github.com/Rustvk/EmailInput#readme",
   "devDependencies": {
     "css-loader": "^3.6.0",
     "mini-css-extract-plugin": "^0.9.0",
