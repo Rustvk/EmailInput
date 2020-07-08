@@ -325,8 +325,8 @@ window.EmailsInput = (function() {
                 inputBlock: inputBlock,
                 getCount: function() {
                     return [
-                        'Валидно: ' + getValidEmailsCount(),
-                        'Всего: ' + emails.length
+                        'Valid: ' + getValidEmailsCount(),
+                        'Total: ' + emails.length
                     ].join('\n');
                 },
                 isEmailExist: function(email) {
