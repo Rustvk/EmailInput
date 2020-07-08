@@ -82,7 +82,7 @@ EmailInput-master/
     ...
     <div id="emails-input"></div>
     ...
-</body>>
+</body>
 ```
 
 - Add `<script>` tag after before `<body>` closed
