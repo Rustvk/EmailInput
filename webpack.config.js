@@ -16,6 +16,6 @@ module.exports = {
         ]
     },
     plugins: [new MiniCssExtractPlugin({
-        filename: 'style.css'
+        filename: 'emails-input.css'
     })]
 };
